@@ -1,9 +1,12 @@
+Version: 1.0.1
+Date: 2019.12.29
+Bugfixes:
+  - Removed debug messages
+
 Version: 1.0.0
 Date: 2019.12.29
 Added:
   - Added automatic placement of landfill ghost tiles.
-
-  
 
 
 Below is the Changelog for Concreep.

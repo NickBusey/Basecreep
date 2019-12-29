@@ -165,7 +165,7 @@ function creep(creeper)
 	end
 
 	if count >= idle_robots then
-		game.print("Found some work to do.  Terminating early.")
+		-- game.print("Found some work to do.  Terminating early.")
 		return true
 	end
 	idle_robots = idle_robots - count
@@ -311,7 +311,7 @@ function addPort(roboport)
 			if (tile.hidden_tile and tile.prototype.items_to_place_this) and not (tile.name == "stone-path" or tile.name == "concrete" or tile.name == "refined-concrete") then
 				it[xx+2][yy+2] = tile.prototype.items_to_place_this[1] and game.item_prototypes[tile.prototype.items_to_place_this[1].name] and tile.prototype.items_to_place_this[1].name
 				patt[xx+2][yy+2] = tile.name
-				game.print(serpent.line(items))
+				-- game.print(serpent.line(items))
 			end
 		end
 	end
